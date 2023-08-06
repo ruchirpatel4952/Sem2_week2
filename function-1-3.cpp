@@ -22,7 +22,7 @@ void count_digits(int array[4][4]) {
     // Print the results in the specified format
     for (int i = 0; i < 10; i++) {
         std::cout << i << ":" << digitCount[i];
-        if (i < 9) {
+        if (i <= 9) {
             std::cout << ";";
         }
     }
